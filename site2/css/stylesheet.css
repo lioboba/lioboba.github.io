@@ -1,0 +1,39 @@
+header {
+    padding-top: 20px;
+}
+.divmid{
+    margin-top: 5%;
+}
+.row.rowtopmenu {
+    text-align: center;
+    border: 1px solid #eeeeee;
+    border-radius: 7px;
+    font-weight: 600;
+    box-shadow: 0 3px 7px 0 #ddd;
+    margin: 5px 0px 17px 0px;
+}
+.row.rowtopmenu p {
+    display: inline-block;
+    padding: 15px 58px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+.row.rowtopmenu p + p, .row.rowtopmenu p + div, .row.rowtopmenu div + p {
+    border-left: 1px solid rgba(170, 170, 170, 0.31);
+}
+button#search-button {
+    margin-left: 10px;
+    border-radius: 7;
+}
+.mt{
+    margin-top: 10px;
+}
+footer.panel-footer {
+    margin-top: 50px;
+    padding: 30px 70px;
+}
+@media screen and (max-width: 1200px) {
+    .row.rowtopmenu p + p, .row.rowtopmenu p + div, .row.rowtopmenu div + p {
+        border-left: none;
+    }
+}
